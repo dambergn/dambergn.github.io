@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+<!--
+Version 3.0012
+- Design a guessing game about you that involves **FIVE** yes/no questions. Be creative and fun and whimsical. Or not. It's up to you! It's your project!
+- The questions in the guessing game must require a mix of yes/no answers, and user input must accept either y/n or yes/no responses, with either `.toUpperCase()` or `.toLowerCase()` used to validate the user input and accommodate users entering all-caps Y/N or YES/NO answers, too.
+- Useful and descriptive `console.log()` messages in the JS are well written and correctly displaying to the browser console for each question of the guessing game.
+- Use CSS to style your page as you see fit, to the level of abilities in CSS that you currently have
+custom dialog box tutorial youtube
+https://www.youtube.com/watch?v=-RLE2Q7OzME&list=PL00952AC35D0A4701&index=103
+
+Assignment 3
+As a developer, I want to use thoughtful and descriptive console.log() throughout my code to help test my work and assist with debugging.
+As a developer, I want to convert some of my appropriate biographical elements into unordered lists, such as my education summary and/or my work experience.
+As a developer, I want to consider the user experience (UX) of my About Me and guessing game, trying to view it through the eyes of a user. Wait... maybe I should just write a user story for that...
+As an end user of the About Me and guessing game, I want to have an informative, interesting, and fun experience in learning about the developer.
+As a prospective job seeker, I want to consider adopting additional features that I have seen in the 'About Me' projects made by others, so that my 'About Me' can become more thorough and interesting than my original conception.
+As a prospective job seeker, I want to make myself more personable by adding a Top Ten list to the bottom of my About Me page with an ordered list in HTML, for instance, my Top Ten Favorite Movies or my Top Ten Places I Want to Visit, or something along those lines.
+As a prospective job seeker, I was to use CSS to creatively and tastefully style and layout my page.
+As a prospective job seeker, I want to have five yes/no questions in my "about me" guessing game so that I have enough questions to cover a variety of things about me.
+As a developer, I want to add a sixth question to my guessing game that takes numeric input by prompting a user to guess a number (for instance, "What is my favorite number?" or "How many Pokémon did I catch yesterday?"), and indicates to the user whether the guess is 'too high' or 'too low', and gives the user exactly four opportunities to get the correct answer, so that my fancy programming skills are showcased.
+--
+As a developer, I want to add a seventh question to my guessing game that has multiple possible correct answers that are stored in an array. For instance, "Can you guess a state that I have lived in besides Washington?", so that even more of my programming skills are showcased. For now, I will structure this question so that the user has six tries to get a single correct answer, and upon using up those tries OR getting a correct answer, displays a message to the user indicating all of the possible correct answers.
+As a developer, I want to keep a tally of the total number of correct answers given by the user, and at the end of the game, tell the user how well they did with a personalized custom message that includes the number of correct answers and also addresses the user by name, e.g. "You got 4 out of 7 questions correct, Bobbi! Better luck next time."
+
+-->
+    <h1>How well do you know me?</h1>
+    <!--Custom dialog box only works on button due to no jquery to stop the dialog boxes from starting automatically on page load.-->
+<!--Non stylized version-->
+    <p>Non stylized for assignment</p>
+    <button onclick="alert('' + user + ', You got ' + userPoints + ' question(s) right.')">View Score</button>
+<!--stylized version-->
+    <br>
+    <p>Stylized for fun</p>
+    <button onclick="Alert.render('' + user + ', You got ' + userPoints + ' question(s) right.')">View Score</button>
+<!--styleixed button and overlay properties-->
+    <br>
+    <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+      <div>
+        <div id="dialogboxhead"></div>
+        <div id="dialogboxbody"></div>
+        <div id="dialogboxfoot"></div>
+      </div>
+    </div>
+<!--Page Bio Content "still requires HTML/CSS formatting"-->
+<h1>Nicholas Arden Damberg</h1>
+<h2>Education</h2>
+<ul>
+  <li>Graduated High School Calamus/Wheatland Iowa in 2005.</li>
+  <li>Joined the Navy in 2005 till 2011.</li>
+  <li>Attended DeVry University pursuing a bachelors in business management focusing on technical.</li>
+  <li>Uncountable amount of youtube tutorials on various subjects.</li>
+  <li>Has held Security+ certification.</li>
+</ul>
+<p>
+Nick has always had an interest in science and technology.  Growing up his favorite show was Mythbusters along with an assortment of Sci-Fi television shows.
+</p>
+<!--
+
+-affiliations
+
+-summary
+-experience
+-->
+    <p></p>
+
+    <script type="text/JavaScript" src="app.js"></script>
+  </body>
+</html>
