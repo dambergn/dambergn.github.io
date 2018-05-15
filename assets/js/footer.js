@@ -9,12 +9,12 @@ document.write(`
           </a>
         </li>
         <li>
-          <a href="#" class="icon alt fa-facebook">
+          <a href="https://www.facebook.com/mhzsys.net/" class="icon alt fa-facebook">
             <span class="label">Facebook</span>
           </a>
         </li>
         <li>
-          <a href="#" class="icon alt fa-linkedin">
+          <a href="https://www.linkedin.com/in/nick-damberg-95099040/" class="icon alt fa-linkedin">
             <span class="label">LinkedIn</span>
           </a>
         </li>
@@ -24,7 +24,7 @@ document.write(`
           </a>
         </li>
         <li>
-          <a href="#" class="icon alt fa-github">
+          <a href="https://github.com/dambergn" class="icon alt fa-github">
             <span class="label">GitHub</span>
           </a>
         </li>
